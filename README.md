@@ -11,6 +11,8 @@ See also  HelpMeSee/labelcustomdata.py to label automatically your own classes.
 
 (This project was made as final assignment for college)
 
+Below you can find instructions on how to build an android app using https://github.com/zldrobit/yolov5.git
+
 ## Info
 <del>This branch provides detection and Android code complement to branch `tf-only-export`.</del>
 Since the release of YOLOv5 v6.0, TFLite models can be exported by `export.py` in ultralytics' master branch. Using `models/tf.py` to export models is deprecated, and this repo is mainly for Anrdroid demo app.
