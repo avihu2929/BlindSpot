@@ -1,20 +1,5 @@
 """
-import torch
-
-# Model
-model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # or yolov5m, yolov5l, yolov5x, custom
-
-# Images
-img = 'https://cdn.londonandpartners.com/asset/a8470577bb79a7460c342bf9a290b604.jpg'  # or file, Path, PIL, OpenCV, numpy, list
-
-# Inference
-results = model(img)
-
-# Results
-#results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
-results.show()
-results.xyxy[0]  # img1 predictions (tensor)
-results.pandas().xyxy[0]  # img1 predictions (pandas)
+Just set the directories and let the magic happen
 """
 
 from PIL import Image
