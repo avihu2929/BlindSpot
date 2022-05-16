@@ -11,7 +11,8 @@ See also  HelpMeSee/labelcustomdata.py to label automatically your own classes.
 
 (This project was made as final assignment for college)
 
-Below you can find instructions on how to build an android app using https://github.com/zldrobit/yolov5.git
+Below are the instructions on how to build the android app.
+(https://github.com/zldrobit/yolov5.git)
 
 ## Info
 <del>This branch provides detection and Android code complement to branch `tf-only-export`.</del>
