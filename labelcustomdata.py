@@ -76,15 +76,3 @@ for filename in os.listdir(directory):
                      
 
 
-
-
-# Images
-#img = r'C:\Users\avihu\Desktop\inpainting\yolo\labelinyolo\images\Screenshot (106).jpg'  # or file, Path, PIL, OpenCV, numpy, list
-
-# Inference
-#results = model(img)
-
-# Results
-#results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
-#results.show()
-#print(results.pandas().xyxy[0])
