@@ -1,4 +1,9 @@
 
+![](blind-driver.gif)
+
+
+
+
 Besides some of the default coco classes we have added scooters and crosswalks.
 The crosswalk class was added with the help of the reposetory https://github.com/kairess/crosswalk-traffic-light-detection-yolov5
 The scooter class was trained using a manually labeled dataset. 
