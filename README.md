@@ -51,3 +51,5 @@ EDIT:
 - Update according YOLOv5 v6.0 release
 
 If you have further question, plz ask in https://github.com/ultralytics/yolov5/pull/1127
+
+The crosswalk class was added thank to this reposetory https://github.com/kairess/crosswalk-traffic-light-detection-yolov5
