@@ -1,3 +1,16 @@
+
+Besides some of the default coco classes we have added scooters and crosswalks.
+The crosswalk class was added with the help of the reposetory https://github.com/kairess/crosswalk-traffic-light-detection-yolov5
+The scooter class was trained using a manually labeled dataset. 
+We use TextToSpeech feature of android to speak the detected classes aloud for the user, We also calculate the postion of the detected object reltive to 
+the screen and add it to the spoken line. ("Theres a scooter to your left").
+(HelpMeSee/android/app/src/main/java/org/tensorflow/lite/examples/detection/tflite/YoloV5Classifier.java)
+
+The final yolo model was trained on ~2000 images taken from the streets and labeled automatically using pretrained single class models (HelpMeSee/models/scooter.pt)
+See also  HelpMeSee/labelcustomdata.py to label automatically your own classes.
+
+(This project was made as final assignment for college)
+
 ## Info
 <del>This branch provides detection and Android code complement to branch `tf-only-export`.</del>
 Since the release of YOLOv5 v6.0, TFLite models can be exported by `export.py` in ultralytics' master branch. Using `models/tf.py` to export models is deprecated, and this repo is mainly for Anrdroid demo app.
@@ -44,12 +57,4 @@ in https://github.com/zldrobit/yolov5/blob/522d65e848d3e5a378eb0f29a9fbb20422140
 
 Then run the program in Android Studio.
 
-TODO:
-- [ ] Add NNAPI support
 
-EDIT: 
-- Update according YOLOv5 v6.0 release
-
-If you have further question, plz ask in https://github.com/ultralytics/yolov5/pull/1127
-
-The crosswalk class was added thank to this reposetory https://github.com/kairess/crosswalk-traffic-light-detection-yolov5
