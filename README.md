@@ -14,6 +14,18 @@ the screen and add it to the spoken line. ("Theres a scooter to your left").
 The final yolo model was trained on ~2000 images taken from the streets and labeled automatically using pretrained single class models (HelpMeSee/models/scooter.pt)
 See also  HelpMeSee/labelcustomdata.py to label automatically your own classes.
 
+person
+bicycle
+car
+motorbike
+bus
+truck
+traffic light
+bench
+crosswalk
+scooter
+bus station
+
 (This project was made as final assignment for college)
 
 Below are the instructions on how to build the android app.
